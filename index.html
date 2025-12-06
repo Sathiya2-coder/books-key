@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books-Key</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="navbar">
+        <h1>Books-key</h1>
+    </div>
+    <div class="container">
+        <div class="book-container">
+          <h1>Rich Dad Poor Dad</h1>
+          <h3>Robert T. Kiyosaki</h3>
+          <br>
+            <p>Rich Dad Poor Dad is a book written by Robert T. Kiyosaki that advocates the importance of financial literacy, financial independence and building wealth through investing in assets, real estate investing, starting and owning businesses, as well as increasing one's financial intelligence (financial IQ) to improve one's business and financial aptitude. The book is written in the style of a set of parables, ostensibly based on Kiyosaki's life. It contrasts two perspectives on money and investing: that of Kiyosaki's "poor dad," his biological father who was highly educated but financially struggling, and his "rich dad," the father of his best friend who was a successful entrepreneur and investor.</p>
+            <button onclick="del(event)">Delete</button>
+        </div>
+    </div>
+    <div class="popup-adder">
+        <h2>Add BOOK</h2>
+        <form>
+            <input type="text" placeholder="Book Name" id="book-name">
+            <input type="text" placeholder="Author Name" id="book-author">
+            <textarea placeholder="Book Discription" id="book-discription-input"></textarea>
+            <button id="add-button">ADD</button>
+            <button id="cancel-button">CANCEL</button>
+        </form>
+
+    </div>
+    <div class="popup-overlay"></div>
+    <button class="add-button" id="add-button-id">+</button>
+    <script src="script.js"></script>
+</body>
+</html>
