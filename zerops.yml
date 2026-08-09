@@ -1,0 +1,9 @@
+zerops:
+  - setup: app
+    build:
+      deployFiles:
+        - index.html
+        - style.css
+        - script.js
+    run:
+      base: static
